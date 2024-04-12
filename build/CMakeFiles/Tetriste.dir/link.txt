@@ -1,0 +1,3 @@
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Tetriste.dir/objects.a
+"D:\Program Files\TDM-GCC\bin\ar.exe" qc CMakeFiles\Tetriste.dir/objects.a @CMakeFiles\Tetriste.dir\objects1.rsp
+"D:\Program Files\TDM-GCC\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\Tetriste.dir/objects.a -Wl,--no-whole-archive -o bin\Tetriste.exe -Wl,--out-implib,libTetriste.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Tetriste.dir\linkLibs.rsp

@@ -1,0 +1,655 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/Program Files/TDM-GCC/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/3.28.0-msvc1/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-5f2pev"
+      binary: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-5f2pev"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-5f2pev'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/TDM-GCC/bin/mingw32-make.exe" -f Makefile cmTC_e39c2/fast
+        D:/Program Files/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e39c2.dir\\build.make CMakeFiles/cmTC_e39c2.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-5f2pev'
+        Building CXX object CMakeFiles/cmTC_e39c2.dir/CMakeCXXCompilerABI.cpp.obj
+        "D:\\Program Files\\TDM-GCC\\bin\\g++.exe"   -v -o CMakeFiles\\cmTC_e39c2.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=D:\\Program Files\\TDM-GCC\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (tdm64-1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e39c2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+         D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_e39c2.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\hp\\AppData\\Local\\Temp\\ccsVHhtL.s
+        GNU C++14 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++"
+        ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward"
+        ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include"
+        ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"
+        ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"
+        ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++
+         D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32
+         D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward
+         D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include
+         D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include
+         D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed
+         D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C++14 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 5e49fa89ed7bfe906173ae8e94e08de6
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e39c2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+         D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_e39c2.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\hp\\AppData\\Local\\Temp\\ccsVHhtL.s
+        GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1
+        COMPILER_PATH=D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;D:/Program Files/TDM-GCC/bin/../libexec/gcc/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;D:/Program Files/TDM-GCC/bin/../lib/gcc/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e39c2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_e39c2.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e39c2.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_e39c2.dir/objects.a
+        "D:\\Program Files\\TDM-GCC\\bin\\ar.exe" qc CMakeFiles\\cmTC_e39c2.dir/objects.a @CMakeFiles\\cmTC_e39c2.dir\\objects1.rsp
+        "D:\\Program Files\\TDM-GCC\\bin\\g++.exe"  -v -Wl,--whole-archive CMakeFiles\\cmTC_e39c2.dir/objects.a -Wl,--no-whole-archive -o cmTC_e39c2.exe -Wl,--out-implib,libcmTC_e39c2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=D:\\Program Files\\TDM-GCC\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=D:/Program\\ Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (tdm64-1) 
+        COMPILER_PATH=D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;D:/Program Files/TDM-GCC/bin/../libexec/gcc/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;D:/Program Files/TDM-GCC/bin/../lib/gcc/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e39c2.exe' '-mtune=generic' '-march=x86-64'
+         D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hp\\AppData\\Local\\Temp\\cc92Cwd2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_e39c2.exe D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LD:/Program Files/TDM-GCC/bin/../lib/gcc -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. --whole-archive CMakeFiles\\cmTC_e39c2.dir/objects.a --no-whole-archive --out-implib libcmTC_e39c2.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e39c2.exe' '-mtune=generic' '-march=x86-64'
+        mingw32-make.exe[1]: Leaving directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-5f2pev'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++]
+          add: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32]
+          add: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward]
+          add: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+          add: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include]
+          add: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+          add: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++] ==> [D:/Program Files/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++]
+        collapse include dir [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32] ==> [D:/Program Files/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward] ==> [D:/Program Files/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward]
+        collapse include dir [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include] ==> [D:/Program Files/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+        collapse include dir [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include] ==> [D:/Program Files/TDM-GCC/include]
+        collapse include dir [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed] ==> [D:/Program Files/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+        collapse include dir [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include] ==> [D:/Program Files/TDM-GCC/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/Program Files/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++;D:/Program Files/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32;D:/Program Files/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward;D:/Program Files/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include;D:/Program Files/TDM-GCC/include;D:/Program Files/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed;D:/Program Files/TDM-GCC/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-5f2pev']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/TDM-GCC/bin/mingw32-make.exe" -f Makefile cmTC_e39c2/fast]
+        ignore line: [D:/Program Files/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e39c2.dir\\build.make CMakeFiles/cmTC_e39c2.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-5f2pev']
+        ignore line: [Building CXX object CMakeFiles/cmTC_e39c2.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: ["D:\\Program Files\\TDM-GCC\\bin\\g++.exe"   -v -o CMakeFiles\\cmTC_e39c2.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Program Files\\TDM-GCC\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (tdm64-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e39c2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_e39c2.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\hp\\AppData\\Local\\Temp\\ccsVHhtL.s]
+        ignore line: [GNU C++14 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++"]
+        ignore line: [ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include"]
+        ignore line: [ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++]
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward]
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include]
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 5e49fa89ed7bfe906173ae8e94e08de6]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e39c2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_e39c2.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\hp\\AppData\\Local\\Temp\\ccsVHhtL.s]
+        ignore line: [GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1]
+        ignore line: [COMPILER_PATH=D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../libexec/gcc/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e39c2.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_e39c2.exe]
+        ignore line: ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e39c2.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_e39c2.dir/objects.a]
+        ignore line: ["D:\\Program Files\\TDM-GCC\\bin\\ar.exe" qc CMakeFiles\\cmTC_e39c2.dir/objects.a @CMakeFiles\\cmTC_e39c2.dir\\objects1.rsp]
+        ignore line: ["D:\\Program Files\\TDM-GCC\\bin\\g++.exe"  -v -Wl --whole-archive CMakeFiles\\cmTC_e39c2.dir/objects.a -Wl --no-whole-archive -o cmTC_e39c2.exe -Wl --out-implib libcmTC_e39c2.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Program Files\\TDM-GCC\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/Program\\ Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (tdm64-1) ]
+        ignore line: [COMPILER_PATH=D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../libexec/gcc/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e39c2.exe' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hp\\AppData\\Local\\Temp\\cc92Cwd2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_e39c2.exe D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LD:/Program Files/TDM-GCC/bin/../lib/gcc -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. --whole-archive CMakeFiles\\cmTC_e39c2.dir/objects.a --no-whole-archive --out-implib libcmTC_e39c2.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e39c2.exe' '-mtune=generic' '-march=x86-64']
+        ignore line: [mingw32-make.exe[1]: Leaving directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-5f2pev']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/sfml-src/CMakeLists.txt:38 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/Program Files/TDM-GCC/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/3.28.0-msvc1/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/sfml-src/CMakeLists.txt:38 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-e00jfs"
+      binary: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-e00jfs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-e00jfs'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/TDM-GCC/bin/mingw32-make.exe" -f Makefile cmTC_4020f/fast
+        D:/Program Files/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4020f.dir\\build.make CMakeFiles/cmTC_4020f.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-e00jfs'
+        Building C object CMakeFiles/cmTC_4020f.dir/CMakeCCompilerABI.c.obj
+        "D:\\Program Files\\TDM-GCC\\bin\\gcc.exe"   -v -o CMakeFiles\\cmTC_4020f.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=D:\\Program Files\\TDM-GCC\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (tdm64-1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4020f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+         D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1.exe -quiet -v -iprefix D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_4020f.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\hp\\AppData\\Local\\Temp\\ccjPGKQY.s
+        GNU C17 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include"
+        ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"
+        ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"
+        ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include
+         D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include
+         D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed
+         D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C17 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 68074fcaab9f6b1377b55f7cea05149b
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4020f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+         D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_4020f.dir\\CMakeCCompilerABI.c.obj C:\\Users\\hp\\AppData\\Local\\Temp\\ccjPGKQY.s
+        GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1
+        COMPILER_PATH=D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;D:/Program Files/TDM-GCC/bin/../libexec/gcc/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;D:/Program Files/TDM-GCC/bin/../lib/gcc/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4020f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_4020f.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4020f.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_4020f.dir/objects.a
+        "D:\\Program Files\\TDM-GCC\\bin\\ar.exe" qc CMakeFiles\\cmTC_4020f.dir/objects.a @CMakeFiles\\cmTC_4020f.dir\\objects1.rsp
+        "D:\\Program Files\\TDM-GCC\\bin\\gcc.exe"  -v -Wl,--whole-archive CMakeFiles\\cmTC_4020f.dir/objects.a -Wl,--no-whole-archive -o cmTC_4020f.exe -Wl,--out-implib,libcmTC_4020f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=D:\\Program Files\\TDM-GCC\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=D:/Program\\ Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (tdm64-1) 
+        COMPILER_PATH=D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;D:/Program Files/TDM-GCC/bin/../libexec/gcc/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;D:/Program Files/TDM-GCC/bin/../lib/gcc/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4020f.exe' '-mtune=generic' '-march=x86-64'
+         D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hp\\AppData\\Local\\Temp\\ccs9URlO.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_4020f.exe D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LD:/Program Files/TDM-GCC/bin/../lib/gcc -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. --whole-archive CMakeFiles\\cmTC_4020f.dir/objects.a --no-whole-archive --out-implib libcmTC_4020f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4020f.exe' '-mtune=generic' '-march=x86-64'
+        mingw32-make.exe[1]: Leaving directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-e00jfs'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/sfml-src/CMakeLists.txt:38 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+          add: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include]
+          add: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+          add: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include] ==> [D:/Program Files/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+        collapse include dir [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include] ==> [D:/Program Files/TDM-GCC/include]
+        collapse include dir [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed] ==> [D:/Program Files/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+        collapse include dir [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include] ==> [D:/Program Files/TDM-GCC/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/Program Files/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include;D:/Program Files/TDM-GCC/include;D:/Program Files/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed;D:/Program Files/TDM-GCC/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/sfml-src/CMakeLists.txt:38 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-e00jfs']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/TDM-GCC/bin/mingw32-make.exe" -f Makefile cmTC_4020f/fast]
+        ignore line: [D:/Program Files/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4020f.dir\\build.make CMakeFiles/cmTC_4020f.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-e00jfs']
+        ignore line: [Building C object CMakeFiles/cmTC_4020f.dir/CMakeCCompilerABI.c.obj]
+        ignore line: ["D:\\Program Files\\TDM-GCC\\bin\\gcc.exe"   -v -o CMakeFiles\\cmTC_4020f.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Program Files\\TDM-GCC\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (tdm64-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4020f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1.exe -quiet -v -iprefix D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_4020f.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\hp\\AppData\\Local\\Temp\\ccjPGKQY.s]
+        ignore line: [GNU C17 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include"]
+        ignore line: [ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/Program Files/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include]
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 68074fcaab9f6b1377b55f7cea05149b]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4020f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_4020f.dir\\CMakeCCompilerABI.c.obj C:\\Users\\hp\\AppData\\Local\\Temp\\ccjPGKQY.s]
+        ignore line: [GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1]
+        ignore line: [COMPILER_PATH=D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../libexec/gcc/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4020f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_4020f.exe]
+        ignore line: ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4020f.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_4020f.dir/objects.a]
+        ignore line: ["D:\\Program Files\\TDM-GCC\\bin\\ar.exe" qc CMakeFiles\\cmTC_4020f.dir/objects.a @CMakeFiles\\cmTC_4020f.dir\\objects1.rsp]
+        ignore line: ["D:\\Program Files\\TDM-GCC\\bin\\gcc.exe"  -v -Wl --whole-archive CMakeFiles\\cmTC_4020f.dir/objects.a -Wl --no-whole-archive -o cmTC_4020f.exe -Wl --out-implib libcmTC_4020f.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Program Files\\TDM-GCC\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/Program\\ Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (tdm64-1) ]
+        ignore line: [COMPILER_PATH=D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../libexec/gcc/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4020f.exe' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=D:/Program Files/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hp\\AppData\\Local\\Temp\\ccs9URlO.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_4020f.exe D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LD:/Program Files/TDM-GCC/bin/../lib/gcc -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LD:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. --whole-archive CMakeFiles\\cmTC_4020f.dir/objects.a --no-whole-archive --out-implib libcmTC_4020f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Program Files/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4020f.exe' '-mtune=generic' '-march=x86-64']
+        ignore line: [mingw32-make.exe[1]: Leaving directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-e00jfs']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-rrno9y"
+      binary: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-rrno9y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-rrno9y'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/TDM-GCC/bin/mingw32-make.exe" -f Makefile cmTC_5eebb/fast
+        D:/Program Files/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5eebb.dir\\build.make CMakeFiles/cmTC_5eebb.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-rrno9y'
+        Building C object CMakeFiles/cmTC_5eebb.dir/CheckIncludeFile.c.obj
+        "D:\\Program Files\\TDM-GCC\\bin\\gcc.exe"    -o CMakeFiles\\cmTC_5eebb.dir\\CheckIncludeFile.c.obj -c "D:\\hp\\Desktop\\Public git Tetriste\\Cpp_Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rrno9y\\CheckIncludeFile.c"
+        Linking C executable cmTC_5eebb.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5eebb.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_5eebb.dir/objects.a
+        "D:\\Program Files\\TDM-GCC\\bin\\ar.exe" qc CMakeFiles\\cmTC_5eebb.dir/objects.a @CMakeFiles\\cmTC_5eebb.dir\\objects1.rsp
+        "D:\\Program Files\\TDM-GCC\\bin\\gcc.exe" -Wl,--whole-archive CMakeFiles\\cmTC_5eebb.dir/objects.a -Wl,--no-whole-archive -o cmTC_5eebb.exe -Wl,--out-implib,libcmTC_5eebb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_5eebb.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-rrno9y'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-nv60s9"
+      binary: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-nv60s9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-nv60s9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/TDM-GCC/bin/mingw32-make.exe" -f Makefile cmTC_9b93c/fast
+        D:/Program Files/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9b93c.dir\\build.make CMakeFiles/cmTC_9b93c.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-nv60s9'
+        Building C object CMakeFiles/cmTC_9b93c.dir/CheckIncludeFile.c.obj
+        "D:\\Program Files\\TDM-GCC\\bin\\gcc.exe"    -o CMakeFiles\\cmTC_9b93c.dir\\CheckIncludeFile.c.obj -c "D:\\hp\\Desktop\\Public git Tetriste\\Cpp_Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nv60s9\\CheckIncludeFile.c"
+        Linking C executable cmTC_9b93c.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9b93c.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_9b93c.dir/objects.a
+        "D:\\Program Files\\TDM-GCC\\bin\\ar.exe" qc CMakeFiles\\cmTC_9b93c.dir/objects.a @CMakeFiles\\cmTC_9b93c.dir\\objects1.rsp
+        "D:\\Program Files\\TDM-GCC\\bin\\gcc.exe" -Wl,--whole-archive CMakeFiles\\cmTC_9b93c.dir/objects.a -Wl,--no-whole-archive -o cmTC_9b93c.exe -Wl,--out-implib,libcmTC_9b93c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_9b93c.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-nv60s9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-i68qlf"
+      binary: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-i68qlf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-i68qlf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/TDM-GCC/bin/mingw32-make.exe" -f Makefile cmTC_a91a3/fast
+        D:/Program Files/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a91a3.dir\\build.make CMakeFiles/cmTC_a91a3.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-i68qlf'
+        Building C object CMakeFiles/cmTC_a91a3.dir/CheckIncludeFile.c.obj
+        "D:\\Program Files\\TDM-GCC\\bin\\gcc.exe"    -o CMakeFiles\\cmTC_a91a3.dir\\CheckIncludeFile.c.obj -c "D:\\hp\\Desktop\\Public git Tetriste\\Cpp_Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i68qlf\\CheckIncludeFile.c"
+        Linking C executable cmTC_a91a3.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a91a3.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a91a3.dir/objects.a
+        "D:\\Program Files\\TDM-GCC\\bin\\ar.exe" qc CMakeFiles\\cmTC_a91a3.dir/objects.a @CMakeFiles\\cmTC_a91a3.dir\\objects1.rsp
+        "D:\\Program Files\\TDM-GCC\\bin\\gcc.exe" -Wl,--whole-archive CMakeFiles\\cmTC_a91a3.dir/objects.a -Wl,--no-whole-archive -o cmTC_a91a3.exe -Wl,--out-implib,libcmTC_a91a3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_a91a3.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-i68qlf'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-7vvpsm"
+      binary: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-7vvpsm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-7vvpsm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/TDM-GCC/bin/mingw32-make.exe" -f Makefile cmTC_d560a/fast
+        D:/Program Files/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d560a.dir\\build.make CMakeFiles/cmTC_d560a.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-7vvpsm'
+        Building C object CMakeFiles/cmTC_d560a.dir/SIZEOF_VOID_PTR.c.obj
+        "D:\\Program Files\\TDM-GCC\\bin\\gcc.exe"    -o CMakeFiles\\cmTC_d560a.dir\\SIZEOF_VOID_PTR.c.obj -c "D:\\hp\\Desktop\\Public git Tetriste\\Cpp_Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7vvpsm\\SIZEOF_VOID_PTR.c"
+        Linking C executable cmTC_d560a.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d560a.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_d560a.dir/objects.a
+        "D:\\Program Files\\TDM-GCC\\bin\\ar.exe" qc CMakeFiles\\cmTC_d560a.dir/objects.a @CMakeFiles\\cmTC_d560a.dir\\objects1.rsp
+        "D:\\Program Files\\TDM-GCC\\bin\\gcc.exe" -Wl,--whole-archive CMakeFiles\\cmTC_d560a.dir/objects.a -Wl,--no-whole-archive -o cmTC_d560a.exe -Wl,--out-implib,libcmTC_d560a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_d560a.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-7vvpsm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "build/_deps/sfml-src/src/SFML/Window/CMakeLists.txt:334 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-lrjlwg"
+      binary: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-lrjlwg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-lrjlwg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/TDM-GCC/bin/mingw32-make.exe" -f Makefile cmTC_a3ac3/fast
+        D:/Program Files/TDM-GCC/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a3ac3.dir\\build.make CMakeFiles/cmTC_a3ac3.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-lrjlwg'
+        Building C object CMakeFiles/cmTC_a3ac3.dir/CheckIncludeFile.c.obj
+        "D:\\Program Files\\TDM-GCC\\bin\\gcc.exe"    -o CMakeFiles\\cmTC_a3ac3.dir\\CheckIncludeFile.c.obj -c "D:\\hp\\Desktop\\Public git Tetriste\\Cpp_Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrjlwg\\CheckIncludeFile.c"
+        Linking C executable cmTC_a3ac3.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a3ac3.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a3ac3.dir/objects.a
+        "D:\\Program Files\\TDM-GCC\\bin\\ar.exe" qc CMakeFiles\\cmTC_a3ac3.dir/objects.a @CMakeFiles\\cmTC_a3ac3.dir\\objects1.rsp
+        "D:\\Program Files\\TDM-GCC\\bin\\gcc.exe" -Wl,--whole-archive CMakeFiles\\cmTC_a3ac3.dir/objects.a -Wl,--no-whole-archive -o cmTC_a3ac3.exe -Wl,--out-implib,libcmTC_a3ac3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_a3ac3.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/CMakeFiles/CMakeScratch/TryCompile-lrjlwg'
+        
+      exitCode: 0
+...

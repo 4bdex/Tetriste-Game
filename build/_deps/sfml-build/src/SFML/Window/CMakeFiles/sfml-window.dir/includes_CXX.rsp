@@ -1,0 +1,1 @@
+-I"D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/_deps/sfml-src/include" -I"D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/_deps/sfml-src/src" -I"D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/_deps/sfml-src/extlibs/headers/vulkan" -isystem "D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/_deps/sfml-src/extlibs/headers/glad/include"
