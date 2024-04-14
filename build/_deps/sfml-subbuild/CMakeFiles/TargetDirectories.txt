@@ -1,3 +1,0 @@
-D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
-D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/_deps/sfml-subbuild/CMakeFiles/edit_cache.dir
-D:/hp/Desktop/Public git Tetriste/Cpp_Game/build/_deps/sfml-subbuild/CMakeFiles/rebuild_cache.dir
