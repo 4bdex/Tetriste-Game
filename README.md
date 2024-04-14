@@ -18,3 +18,5 @@ This is a simple game project written in C++ using the SFML library. The game is
 ## Executable Path
 
 ```./build/bin/Tetriste.exe```
+
+or just run the executable file Tetriste.exe (:
