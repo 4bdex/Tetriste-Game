@@ -34,3 +34,5 @@
 # files
 /build
 test.cpp
+#libtorch
+/libtorch
