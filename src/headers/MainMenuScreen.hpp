@@ -34,6 +34,6 @@ public:
 private:
     RenderWindow *window;
     sf::Font font;
-    std::vector<std::string> options = {"New Game", "Resume Game", "LeaderBoard","Contols", "Quit"};
+    std::vector<std::string> options = {"New Game", "Resume Game", "Leaderboard","Controls", "Quit"};
     int selectedOption;
 };

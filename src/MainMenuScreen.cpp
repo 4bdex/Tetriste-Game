@@ -30,7 +30,7 @@ void MainMenu::render()
     title.move(2, 2); // Move the shadow text slightly down and to the right
     bool isGameSaved = checkSavedGame();
     if (!isGameSaved){
-        options = {"New Game", "LeaderBoard","Contols", "Quit"};
+        options = {"New Game", "LeaderBoard","Controls", "Quit"};
     }
     for (int i = 0; i < options.size(); ++i)
     {
