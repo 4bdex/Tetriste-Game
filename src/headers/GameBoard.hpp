@@ -18,7 +18,7 @@ enum class PColor
     RED,
     GREEN,
     PURPLE,
-    ORANGE,
+    BLACK,
 };
 
 enum class PShape

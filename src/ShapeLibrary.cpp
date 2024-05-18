@@ -89,7 +89,7 @@ Color ShapeLibrary::getColor(int color)
     case 4:
         return Color(128, 0, 128); // Purple
     case 5:
-        return Color(255, 165, 0); // Orange
+        return Color::Black;
     default:
         return Color::White;
     }
